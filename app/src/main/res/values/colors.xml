@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary1">#3F51B5</color>
+    <color name="colorPrimaryDark1">#303F9F</color>
+    <color name="colorAccent1">#FF4081</color>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="transparent">#00000000</color>
+    <color name="tap1">#fff6687d</color>
+    <color name="tap">#01BABD</color>
+    <color name="tap_dark1">#ffff5c69</color>
+    <color name="tap_dark">#01BABD</color>
+    <color name="tap_light1">#ffffe1e4</color>
+    <color name="tap_light">#FFA2E9D9</color>
+</resources>

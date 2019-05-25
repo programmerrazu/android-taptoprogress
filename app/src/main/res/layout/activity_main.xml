@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <razu.com.Circle
+        android:id="@+id/circle_curve"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tapandhold_buttonHeight_outter"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/transparent" />
+
+    <LinearLayout
+        android:id="@+id/ll_tap"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tapandhold_buttonHeight_middle"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_tap_transparnt"
+        android:paddingTop="@dimen/curve_width">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tapandhold_buttonHeight_inner"
+            android:background="@drawable/bg_tap">
+
+            <ImageView
+                android:id="@+id/iv_tap_hold_logo"
+                android:layout_width="50.0dip"
+                android:layout_height="37.0dip"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="22.0dip"
+                android:src="@drawable/tap_logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_tap_hold_logo"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_10"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="@string/tap_to_load"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_12sdp" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
